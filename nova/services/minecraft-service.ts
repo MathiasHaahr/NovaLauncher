@@ -1,0 +1,1 @@
+import { adapter } from '../adapter/xmcl-adapter';\nexport class MinecraftService {\n  async getVersions() { return adapter.getMinecraftVersions(); }\n}\n
